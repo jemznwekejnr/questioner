@@ -55,7 +55,7 @@ h2{
 
 .signup{
 
-	width: 50%;
+	width: 40%;
 	height: 30px;
 	font-size: 15px;
 	border-radius: 3px;
@@ -68,4 +68,157 @@ h2{
 }
 .header{
 	margin-bottom: 30px;
+}
+
+.pageheader{
+
+	width: 80%;
+	background-image: url(images/header.jpg);
+	height: 350px;
+	background-color: #000;
+	margin: 0px auto;
+	box-shadow: 1px 1px 1px 1px #000;
+	
+}
+.logo{
+
+	margin-top: 200px;
+}
+
+.pagebody{
+
+	width: 80%;
+	margin: 0px auto;
+	box-shadow: 1px 1px 1px 1px #000;
+	background-color: #fff;
+	padding-bottom: 50px;
+	text-align: left;
+	height: 380%;
+
+}
+
+.pagefooter{
+
+	width: 80%;
+	height: 10%;
+	margin: 0px auto;
+	box-shadow: 1px 1px 1px 1px #000;
+	background-color: #000;
+	padding-bottom: 50px;
+
+}
+.signbuttons{
+
+	float: right;
+	margin-right: 50px;
+	margin-top: 300px;
+}
+
+.buttons{
+
+	box-shadow: 2px 2px 2px 2px #000;
+	border-radius: 3px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.signinbutton{
+
+	background-color: #32CD32;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.signinbutton:hover{
+
+	background-color: #FF6347;
+}
+
+.signupbutton{
+
+	background-color: #ffa500;
+	color: #fff;
+}
+
+.signupbutton:hover{
+
+	background-color: #FF6347;
+}
+
+.pagebody .meetuphead{
+	
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px; 
+
+}
+
+.meetupcontent{
+
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 90%;
+	float: left;
+}
+
+.meetupcontent img{
+
+	width: 100%;
+}
+
+.content-description p{
+
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 2;
+}
+
+.content-title h3{
+
+	font-size: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.content-title a{
+	text-decoration: none;
+	color: #000;
+}
+
+.search-meetup{
+	float: right;
+	margin-right: 20px;
+	width: 30%;
+	margin-top: 20px;
+}
+
+.search-text{
+	width: 80%;
+	box-shadow: 1px 1px 0px 0px #000;
+	height: 30px;
+	margin-right: 5px;
+	
+}
+
+.search-button{
+	height: 40px;
+	width: 40px;
+	border: 0px none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.search-meetup button img:hover .search-text{
+
+	display: block;
+}
+.search-meetup button img{
+	width: 100%;
+
+}
+.footer-text{
+	float: right;
+	margin-right: 20px;
+	margin-top: 60px;
+	color: #fff;
 }
